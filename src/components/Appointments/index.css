@@ -1,0 +1,92 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.main-card {
+  height: 50%;
+  background-color: #fff;
+  width: 80%;
+  border-radius: 10px;
+  padding: 50px;
+  font-size: medium;
+  font-family: 'Roboto';
+}
+.input-and-image-containing-card {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .input-and-image-containing-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.input {
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #b5b7c4;
+}
+.button {
+  color: #fff;
+  background-color: #8b5cf6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+  border-radius: 3px;
+}
+.main-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .main-image {
+    margin-left: 20px;
+    margin-top: 30px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    display: block;
+  }
+}
+.line {
+  border: 1px solid #b5b7c4;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.star-button {
+  height: 30px;
+  width: 110px;
+  border-radius: 20px;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  background-color: transparent;
+  font-size: large;
+  font-weight: 500;
+}
+.un-ordered-list {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.new-change-style {
+  color: #ffffff;
+  background-color: #8b5cf6;
+}
